@@ -1,0 +1,10 @@
+{
+  "name": "website",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "npx tailwindcss -i ./src/index.css -o ./src/tailwind.css --watch",
+    "build": "npx tailwindcss -i ./src/index.css -o ./src/tailwind.css"
+  },
+  "main": "index.js",
+  "license": "MIT"
+}
