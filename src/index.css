@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-@media (max-width: 768px) {
+@media (max-width: 820px) {
     .videocontainer {
         position: relative;
         height: 0;

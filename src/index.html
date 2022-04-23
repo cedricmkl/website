@@ -1,5 +1,5 @@
 <!doctype html>
-<html>
+<html lang="de">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,23 +10,42 @@
         <div class="container flex justify-between items-center mx-auto px-8 md:px-14 lg:px-24 w-full">
             <div class="text-lg font-bold">CoolePizza.de</div>
             <div class="hidden md:flex space-x-12 items-center">
-                <a href="https://youtube.com/CoolePizza">Youtube</a>
-                <a href="https://twitter.com/coole_pizza">Twitter</a>
-                <a href="https://twitch.tv/CoolePizzaTV">Twitch</a>
+                <a href="https://youtube.com/CoolePizza" class="transition-all hover:text-blue-500">Youtube</a>
+                <a href="https://twitter.com/coole_pizza" class="transition-all hover:text-blue-500">Twitter</a>
+                <a href="https://twitch.tv/CoolePizzaTV" class="transition-all hover:text-blue-500">Twitch</a>
                 <a href="https://discord.gg/AYqUEKMJub"><button class="px-6 py-2 bg-theme font-bold rounded-md">Discord beitreten</button></a>
             </div>
-            <div class="md:hidden">
+            <button id="menu" class="md:hidden">
                 <svg width="26" height="18" viewBox="0 0 26 18" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M13 17.5H0.25V14.6667H13V17.5ZM25.75 10.4167H0.25V7.58333H25.75V10.4167ZM25.75 3.33333H13V0.5H25.75V3.33333Z" fill="white"/></svg>
-            </div>
+            </button>
+        </div>
+        <div id="container" class="md:hidden w-full mt-2 lg:mt-0 hidden">
+            <ul class="flex flex-col w-auto space-y-2">
+                <li>
+                  <a href="https://youtube.com/CoolePizza" class="flex px-4 py-2 font-medium text-white rounded-md  hover:bg-blue-800">Youtube</a>
+                </li>
+                <li>
+                    <a href="https://twitter.com/coole_pizza" class="flex px-4 py-2 font-medium text-white rounded-md  hover:bg-blue-800">Twitter</a>
+                </li>
+                <li>
+                    <a href="https://twitch.tv/CoolePizzaTV" class="flex px-4 py-2 font-medium text-white rounded-md  hover:bg-blue-800">Twitch</a>
+                </li>
+                <li>
+                    <a href="https://discord.gg/AYqUEKMJub" class="flex px-4 py-2 font-medium text-white rounded-md hover:bg-blue-800">Discord beitreten</a>
+                </li>
+              </ul>
         </div>
     </header>
 
-    <div class="md:mx-40 mx-5 py-20 grid sm:grid-flow-row 2xl:grid-flow-col gap-20 2xl:gap-0 place-items-stretch">
+    <div class="md:px-40 px-5 py-20 grid sm:grid-flow-row 2xl:grid-flow-col gap-20 2xl:gap-0 place-items-stretch bg-blue-800">
         <div class="pt-6">
             <h1 class="font-bold text-5xl max-w-xl">Youtube Tutorials zum Programmieren <br>mit Java & Javascript</h1>
         </div>
-        <div class="videocontainer">
+        <div class="videocontainer items-center">
             <iframe class="videoiframe" width="640" height="360" src="https://www.youtube-nocookie.com/embed/videoseries?list=UUgH_pt2e9yC6m22Fj1CqvtQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>        </div>
     </div>
+
+
+    <script src="script.js"></script>
 </body>
 </html>
