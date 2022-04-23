@@ -3,15 +3,13 @@
 @tailwind utilities;
 
 @media (max-width: 768px) {
-    .videobereich {
-        background-color: orange;
+    .videocontainer {
         position: relative;
         height: 0;
         padding-bottom: 56.25%;
     }
     
-    .videoextern {
-        background-color: yellow;
+    .videoiframe {
         position: absolute;
         top: 0;
         left: 0;

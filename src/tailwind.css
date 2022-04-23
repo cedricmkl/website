@@ -502,10 +502,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   }
 }
 
-.left-0 {
-  left: 0px;
-}
-
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
@@ -534,10 +530,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .max-w-xl {
   max-width: 36rem;
-}
-
-.place-items-start {
-  place-items: start;
 }
 
 .place-items-stretch {
@@ -629,15 +621,13 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 
 @media (max-width: 768px) {
-  .videobereich {
-    background-color: orange;
+  .videocontainer {
     position: relative;
     height: 0;
     padding-bottom: 56.25%;
   }
 
-  .videoextern {
-    background-color: yellow;
+  .videoiframe {
     position: absolute;
     top: 0;
     left: 0;
@@ -647,11 +637,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 
 @media (min-width: 640px) {
-  .sm\:mx-5 {
-    margin-left: 1.25rem;
-    margin-right: 1.25rem;
-  }
-
   .sm\:grid-flow-row {
     grid-auto-flow: row;
   }
