@@ -560,14 +560,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   flex-direction: column;
 }
 
-.place-items-center {
-  place-items: center;
-}
-
-.place-items-stretch {
-  place-items: stretch;
-}
-
 .items-center {
   align-items: center;
 }
@@ -580,20 +572,12 @@ Ensure the default browser behavior of the `hidden` attribute.
   justify-content: space-between;
 }
 
-.gap-20 {
-  gap: 5rem;
-}
-
 .gap-24 {
   gap: 6rem;
 }
 
 .gap-10 {
   gap: 2.5rem;
-}
-
-.gap-5 {
-  gap: 1.25rem;
 }
 
 .space-x-12 > :not([hidden]) ~ :not([hidden]) {
@@ -672,6 +656,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .text-center {
   text-align: center;
+}
+
+.align-middle {
+  vertical-align: middle;
 }
 
 .text-lg {
