@@ -17,3 +17,10 @@
         height: 100%;
     }
 }
+
+
+@layer components {
+    .social-item {
+        @apply flex-initial bg-gray-800 shadow-lg rounded-lg shadow-gray-900 hover:shadow-gray-700 transition-all duration-200 m-5
+    }
+}

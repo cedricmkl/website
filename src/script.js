@@ -1,5 +1,5 @@
-const container = document.querySelector("#container")
+const mobileNavbarContainer = document.querySelector("#mobilenavbar")
 
 document.querySelector("#menu").onclick = () => {
-    container.classList.toggle("hidden")
+    mobileNavbarContainer.classList.toggle("hidden")
 }
